@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devcom</title>
+
+    <link rel="stylesheet" href="../output.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <main>
+        <header>
+            <div class="md:flex md:justify-between md:items-center md:p-4 md:w-full md:border-b">
+                <div class="flex justify-between items-center border-b p-4  md:shadow-none md:border-none">
+                    <div>
+                        <a href="" class="text-xl font-bold text-cyan-500 md:text-2xl md:font-bold">Dev<span class="text-cyan-600">Com</span></a>
+                    </div>
+                    <div class="md:hidden">
+                        <button class="h-10 w-10 flex flex-col justify-center items-center bg-gray-200 p-3 rounded-full" id="btn-menu">
+                            <div class="h-0.5 w-5 bg-gray-600 rounded-full duration-500" id="bar1"></div>
+                            <div class="h-0.5 w-5 bg-gray-600 rounded-full mt-1 duration-500" id="bar2"></div>
+                            <div class="h-0.5 w-5 bg-gray-700 rounded-full mt-1 duration-500" id="bar3"></div>
+                        </button>
+                    </div> 
+                </div>
+                <div class="absolute w-full h-0 overflow-hidden duration-700 md:h-16 md:relative" id="navbar">
+                    <div class="h-[100vh] bg-black/50 p-7 duration-300 md:bg-transparent md:h-16 md:flex md:justify-end md:items-center md:p-0" >
+                        <nav class="bg-white p-7 rounded-xl shadow-white shadow-2xl md:p-0 md:bg-transparent md:shadow-none">
+                            <ul class="text-xl font-semibold text-cyan-800 md:flex md:items-center">
+                                <li><a href="../index.html" class="block md:p-0 md:w-16">Acceuil</a></li>
+                                <li><a href="about.html" class="block mt-3 md:ml-4 md:mt-0">A propos</a></li>
+                                <li><a href="projet.html" class="block mt-3 md:ml-4 md:mt-0">Projet</a></li>
+                                <li><a href="blog.html" class="block mt-3 border-b-4 border-blue-600 w-14 md:ml-4 md:mt-0">Blog</a></li>
+                                <li><a href="album.html" class="block mt-3 md:ml-4 md:mt-0">Album</a></li>
+                                <div class="flex justify-center border-t mt-7 md:mt-0 md:border-none">
+                                    <a href="https://chat.whatsapp.com/CdqRmihyMyRHMW7oisiA5T" class="block border mt-3 bg-white/50  p-2 px-20 rounded-full shadow-md hover:bg-blue-500 hover:duration-300 hover:text-white md:px-7 md:ml-4 md:text-white md:mt-0 md:bg-blue-600">Join Us</a>
+                                </div>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+            <section class="bg-gray-50">
+                <section class=" mt-2">
+                    <div class="bg-white p-5 rounded-xl shadow-xl">
+                        <div class="">
+                            <div class="">
+                                <a href="#" class="block bg-blue-200/50 text-blue-500 text-lg rounded-lg shadow-sm p-2 w-28 text-center">Frontend</a>
+                                <div class="flex p-5 text-blue-600">
+                                    <a href="./blog.html" class="block underline">Blog</a>
+                                    <span> > </span>
+                                    <a href="./blogDetails.html" class="block underline">Detail</a>
+                                </div>
+                            </div>   
+                        </div>
+                        <div class="mt-5 lg:flex lg:justify-around">
+                            <div class="lg:w-[35%]">
+                                <h1 class="text-3xl font-semibold" >
+                                    Installation et setup d'un projet Avec Tailwindcss CLI
+                                </h1>
+                                <div class="mt-4">
+                                    <p>
+                                        Tailwindcss est un  framework css orienté <strong>classes utilitaires</strong> et adopte  une approche <strong>Mobile First</strong>, il permet de construire rapidement des
+                                        interfaces web modernes et responsive
+                                    </p>
+                                    <div class="flex text-gray-400 mt-5">
+                                        <h1>21 March 2023</h1>
+                                        <p class="ml-5">5 min de lecture</p>
+                                    </div>
+    
+                                    <div class="flex justify-center items-center h-40 w-full bg-[url('./img/goo.jpg')] bg-cover rounded-xl mt-4">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mt-5 lg:mt-0 lg:w-[45%]">
+                                <p class="text-justify">
+                                   
+                                    <div class="mt-4">
+                                        <p class="text-justify">
+                                            Lorsqu'il s'agit de concevoir un nouveau projet, la mise en place d'un système de conception solide est essentielle pour garantir une expérience utilisateur cohérente et attrayante. Tailwind CSS est un framework CSS populaire qui permet de créer rapidement des interfaces modernes et personnalisées. Dans cet article, nous vous guiderons à travers les étapes d'installation et de configuration d'un nouveau projet avec Tailwind CSS. <br>
+                                        </p>
+                                    </div>
+
+                                    <div class="mt-4">
+                                        <p class="text-justify">
+                                            Étape 1: Configuration initiale
+                                            Avant de commencer, assurez-vous d'avoir Node.js installé sur votre machine. Ouvrez votre terminal et créez un nouveau répertoire pour votre projet. Accédez au répertoire nouvellement créé en utilisant la commande cd. <br>
+
+                                            Étape 2: Initialisation du projet
+                                            Maintenant, initialisons notre projet en utilisant la commande npm init. Cela créera un fichier package.json qui contiendra les dépendances et les scripts nécessaires pour notre projet. <br>
+
+                                            Étape 3: Installation de Tailwind CSS
+                                            Pour installer Tailwind CSS, exécutez la commande suivante dans votre terminal: <br>
+                                        </p>
+                                    </div>
+
+                                    <div class="mt-3 bg-gray-900 p-4 rounded-lg">
+                                        <p class="text-white">
+                                            npm install tailwindcss
+                                        </p>
+                                    </div>
+
+                                    <div class="mt-4">
+                                        <p class="text-justify">
+                                            Cela téléchargera et installera Tailwind CSS dans votre projet. <br>
+
+                                            Étape 4: Configuration de Tailwind CSS
+                                            Une fois l'installation terminée, vous devez générer un fichier de configuration Tailwind CSS. Exécutez la commande suivante: <br>
+                                        </p>
+                                    </div>
+
+                                    <div class="mt-3 bg-gray-900 p-4 rounded-lg">
+                                        <p class="text-white">
+                                            npx tailwindcss init
+                                        </p>
+                                    </div>
+                                    
+
+                                    <div class="mt-4">
+                                        <p class="text-justify">
+                                            Cela créera un fichier tailwind.config.js qui vous permettra de personnaliser les différentes options de configuration selon vos besoins.
+                                            <br>
+                                            Étape 5: Création de votre feuille de style principale
+                                            Maintenant que nous avons configuré Tailwind CSS, nous devons créer notre propre feuille de style principale pour notre projet. Créez un nouveau fichier CSS (par exemple styles.css) et importez Tailwind CSS en utilisant la directive @import:
+                                            css <br>
+                                        </p>
+                                    </div>
+
+                                    <div class="mt-3 bg-gray-900 p-4 rounded-lg">
+                                        <p class="text-white">
+                                            @import 'tailwindcss/base'; <br>
+                                            @import 'tailwindcss/components'; <br>
+                                            @import 'tailwindcss/utilities';
+                                        </p>
+                                    </div>
+                                    
+
+                                    <div class="mt-3">
+                                       <p class="text-justify">
+                                            Cela importera toutes les classes de base, les composants et les utilitaires de Tailwind CSS dans votre feuille de style principale.
+
+                                        <br>
+    
+                                            Étape 6: Compilation de votre feuille de style
+                                            Maintenant que nous avons configuré notre feuille de style principale, nous devons la compiler en un fichier CSS que nous pouvons utiliser dans notre projet. Pour cela, vous pouvez utiliser un outil de compilation CSS tel que PostCSS ou Webpack avec le plugin Tailwind CSS.
+    
+                                            Étape 7: Utilisation de Tailwind CSS dans votre projet
+                                            Une fois que vous avez compilé votre feuille de style, vous pouvez commencer à utiliser les classes de Tailwind CSS dans votre HTML. Par exemple, vous pouvez appliquer la classe bg-blue-500 à un élément pour lui donner un arrière-plan bleu:
+    
+                                            html
+                                            <div class="bg-blue-500">
+                                                Contenu de votre élément
+                                            </div>
+                                       </p>
+                                    </div>
+
+
+                                    <div class="mt-3">
+                                        <p class="text-justify">
+                                            Conclusion:
+                                            Avec Tailwind CSS, vous pouvez rapidement et facilement mettre en place un système de conception pour votre nouveau projet. En suivant les étapes décrites dans cet article, 
+                                            vous pourrez installer et configurer Tailwind CSS sans effort. 
+                                            N'oubliez pas d'explorer la documentation officielle de Tailwind CSS pour 
+                                            découvrir toutes les fonctionnalités et les possibilités offertes par ce framework
+                                            puissant. Alors, commencez dès aujourd'hui à créer des interfaces magnifiques et personnalisées 
+                                            avec Tailwind CSS !
+                                        </p>
+                                    </div>
+                                </p>
+                            </div>
+                        </div>
+                        <Div>
+
+                        </Div>
+                    </div>
+                </section>
+
+                <section class="mt-10 bg-gray-200 p-4">
+                    <div class="flex flex-col items-center">
+                        <div class="flex justify-center bg-blue-300/50 items-center h-14 w-14 border rounded-full"><i class='bx bx-pin text-4xl text-blue-800'></i></div>
+                        <h1 class="bg-gradient-to-r from-blue-800 to-blue-300 bg-clip-text text-transparent font-bold text-4xl mt-3">Autres Articles</h1>
+                        <p class="mt-5 text-center text-lg text-gray-600">
+                            Découvrez d'autres articles Passionnants
+                        </p>
+                    </div>
+
+                    <div class="mt-7 md:w-[45%]">
+                        <div class="bg-white p-5 rounded-xl shadow-xl">
+                            <div class="flex text-gray-400">
+                                <h1>21 March 2023</h1>
+                                <p class="ml-5">5 min de lecture</p>
+                            </div>
+                            <div class="mt-5">
+                                <h1 class="text-3xl font-semibold" >
+                                    Gerer le Versionning d'un projet avec Git & GitHub
+                                </h1>
+    
+                                <div class="mt-4 flex items-center">
+                                    <div class="flex justify-center items-center h-20 w-20 bg-[url('./img/like-icon.png')] bg-cover rounded-full">
+                                        
+                                    </div>
+                                    <div class="ml-3">
+                                        <h1 class="font-semibold text-xl">Likeur Off</h1>
+                                        <p class="text-gray-500">Developpeur Frontend</p>
+                                    </div>
+                                </div>
+                                <div class="mt-4">
+                                    <p class="text-justify">
+                                        Git et Github sont des outils très important à connaitre pour un Developpeur,
+                                        ces outils permettes de gerer votre code et permettre une collaboration en équipe ou chaque membre poura contribuer
+                                        au projet
+                                    </p>
+                                    <a href="blogDetails.html" class="block mt-4 text-xl text-blue-600">Lire plus</a>
+    
+                                    <div class="flex justify-center items-center h-40 w-full bg-[url('./img/goo.jpg')] bg-cover rounded-xl mt-4">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <Div>
+    
+                            </Div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </header>
+
+
+        
+
+
+
+
+
+
+        <footer class="bg-gray-200 p-4">
+            <div class="p-4">
+                <div class="flex justify-center">
+                    <a href="" class="text-3xl font-bold text-cyan-500 md:text-4xl md:font-bold">Dev<span class="text-cyan-600">Com</span></a>
+                </div>
+                <div class="flex justify-around mt-4">
+                    <div>
+                        <h1 class="text-lg font-semibold">Projet OpenSource</h1>
+                        <ul class="mt-3">
+                            <li><a href="" class="block text-gray-500">projet 1</a></li>
+                            <li><a href="" class="block text-gray-500 mt-3">projet 2</a></li>
+                            <li><a href="" class="block text-gray-500 mt-3">projet 3</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h1 class="text-lg font-semibold">Entreprise</h1>
+                        <ul class="mt-3">
+                            <li><a href="" class="block text-gray-500">Nos Services</a></li>
+                            <li><a href="" class="block text-gray-500 mt-3">Nos réalisations</a></li>
+                            <li><a href="" class="block text-gray-500 mt-3">Contactez-nous</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="flex justify-around items-center mt-7 border-b border-blue-600/40 pb-3">
+                    <div>
+                        <h1 class="text-lg font-semibold">Ressources</h1>
+                        <ul class="mt-3">
+                            <li><a href="" class="block text-gray-500">Condition d'utilisation</a></li>
+                            <li><a href="" class="block text-gray-500 mt-3">Politique confidentialité</a></li>
+                            <li><a href="" class="block text-gray-500 mt-3">Directive pour mentorat</a></li>
+                            
+                        </ul>
+                    </div>
+                    <div>
+                        <h1 class="text-lg font-semibold"></h1>
+                        <ul class="mt-3">
+                            <li><a href="" class="block text-gray-500">Flux RSS Blog</a></li>
+                            <li><a href="" class="block text-gray-500 mt-3">Channel Telegram</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="flex justify-around w-full mt-7">
+                    <a href="#" class="flex justify-center items-center h-14 w-14 border rounded-full hover:bg-gray-300 hover:duration-300"><i class='bx bxl-facebook-circle text-4xl text-blue-600'></i></a>
+                    <a href="#" class="flex justify-center items-center h-14 w-14 border rounded-full hover:bg-gray-300 hover:duration-300"><i class='bx bxl-instagram-alt text-4xl text-blue-600'></i></a>
+                    <a href="https://www.linkedin.com/company/devcom-upl/" class="flex justify-center items-center h-14 w-14 border rounded-full hover:bg-gray-300 hover:duration-300"><i class='bx bxl-linkedin-square text-4xl text-blue-600'></i></a>
+                    <a href="https://chat.whatsapp.com/CdqRmihyMyRHMW7oisiA5T" class="flex justify-center items-center h-14 w-14 border rounded-full hover:bg-gray-300 hover:duration-300"><i class='bx bxl-whatsapp text-4xl text-blue-600'></i></a>
+                </div>
+
+                <div>
+                    <h1 class="text-center text-gray-900 mt-5 text-lg">&copy; Devcom 2023-2024. Tous droits réservés</h1>
+                </div>
+            </div>
+
+
+        </footer>
+    </main>
+
+
+    <script src="../index.js"></script>
+</body>
+</html>

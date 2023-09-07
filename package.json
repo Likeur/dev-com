@@ -1,0 +1,12 @@
+{
+  "name": "devcom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "npx tailwindcss -i input.css -o output.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
