@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +7,8 @@
 
     <link rel="stylesheet" href="output.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body class="bg-[url('./img/bg.jpg')] bg-contain">
     <main class="bg-white/90 lg:bg-white/80 ">
@@ -24,11 +26,11 @@
                         </button>
                     </div> 
                 </div>
-                <div class="absolute w-full h-0 overflow-hidden duration-700 md:h-16 md:relative" id="navbar">
-                    <div class="h-[100vh] bg-black/50 p-7 duration-300 md:bg-transparent md:h-16 md:flex md:justify-end md:items-center md:p-0" >
-                        <nav class="bg-white p-7 rounded-xl shadow-white shadow-2xl md:p-0 md:bg-transparent md:shadow-none">
+                <div class="absolute z-50 w-full h-0 overflow-hidden duration-300 md:h-16 md:relative" id="navbar">
+                    <div class="h-[100vh] z-50 bg-white/80 p-7 duration-300 md:bg-transparent md:h-16 md:flex md:justify-end md:items-center md:p-0" >
+                        <nav class="bg-white z-50 p-7 rounded-xl shadow-blue-500 shadow-2xl md:p-0 md:bg-transparent md:shadow-none">
                             <ul class="text-xl font-semibold text-cyan-800 md:flex md:items-center">
-                                <li><a href="index.html" class="block border-b-4 border-blue-600 w-16  md:p-0 md:w-16">Acceuil</a></li>
+                                <li><a href="index.html" class="block text-blue-500  md:p-0 md:w-16">Acceuil</a></li>
                                 <li><a href="./page/about.html" class="block mt-3 md:ml-4 md:mt-0">A propos</a></li>
                                 <li><a href="./page/projet.html" class="block mt-3 md:ml-4 md:mt-0">Projet</a></li>
                                 <li><a href="./page/blog.html" class="block mt-3 md:ml-4 md:mt-0">Blog</a></li>
@@ -45,17 +47,17 @@
             <section class="p-4">
                 <div class="md:flex md:items-center md:justify-around">
                     <div class="p-3 mt-2 md:w-[55%] ">
-                        <h1 class="text-4xl text-blue-900 font-bold text-center">
+                        <h1 data-aos="fade-up" class="text-4xl text-blue-900 font-bold text-center">
                             <span class="bg-gradient-to-r from-blue-800 to-blue-300 bg-clip-text text-transparent text-5xl">Creating</span> Solution <br> <span class="bg-gradient-to-r from-blue-800 to-blue-300 bg-clip-text text-transparent text-5xl">building</span> 
                             Connections and<br> <span class="bg-gradient-to-r from-blue-800 to-blue-300 bg-clip-text text-transparent text-5xl">Sharing</span> 
                             Knowleadge 
                         </h1>
 
-                        <p class="text-center mt-7 text-lg text-gray-500">
+                        <p data-aos="fade-up" class="text-center mt-7 text-lg text-gray-500">
                             Devcom est une communauté des passionnées de la technologie en général et du developpement informatique en particulier.
                         </p>
 
-                        <div class="flex flex-col items-center mt-7">
+                        <div data-aos="fade-up" class="flex flex-col items-center mt-7">
                             <div class="md:flex">
                                 <a href="https://chat.whatsapp.com/CdqRmihyMyRHMW7oisiA5T" class="block text-center bg-blue-500 text-white border shadow-md font-semibold p-2 px-10 rounded-full hover:bg-blue-600 hover:duration-300">Rejoindre</a>
                                 <a href="./page/about.html" class="block bg-white text-center text-blue-500 border shadow-md font-semibold p-2 px-10 rounded-full mt-3 md:mt-0 md:ml-3 hover:bg-gray-200 hover:duration-300">En savoir plus</a>
@@ -68,9 +70,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="mt-5 md:mt-0 md:w-[45%]">
+                    <div data-aos="fade-up" class="mt-5 md:mt-0 md:w-[45%]">
                         <div class="relative flex flex-col items-center">
-                            <div class="flex h-60 object-contain w-full bg-[url('./img/fin.JPG')] bg-cover shadow-lg rounded-xl md:h-[60vh]">
+                            <div class="flex h-60 object-contain w-full bg-[url('./img/image1.jpg')] bg-cover shadow-lg rounded-xl md:h-[60vh]">
                                 
                             </div>
                             <div class="absolute -bottom-14 h-32 w-72 p-3 text-white flex justify-center items-center rounded-xl bg-gradient-to-t from-blue-700/90 to-blue-900/90">
@@ -87,24 +89,24 @@
         <section class=" bg-gray-100 p-4 mb-12 ">
             <div class="p-4 mt-24 md:mt-3">
                 <div class="flex flex-col items-center">
-                    <div class="flex justify-center bg-blue-300/50 items-center h-14 w-14 border rounded-full"><i class='bx bx-pin text-4xl text-blue-800'></i></div>
-                    <h1 class="bg-gradient-to-r from-blue-800 to-blue-300 bg-clip-text text-transparent font-bold text-4xl mt-3">Nos Valeurs</h1>
-                    <p class="mt-5 text-center text-lg text-gray-600 md:w-[30%]">
+                    <div  data-aos="flip-up" class="flex justify-center bg-blue-300/50 items-center h-14 w-14 border rounded-full"><i class='bx bx-pin text-4xl text-blue-800'></i></div>
+                    <h1  data-aos="flip-up" class="bg-gradient-to-r from-blue-800 to-blue-300 bg-clip-text text-transparent font-bold text-4xl mt-3">Nos Valeurs</h1>
+                    <p  data-aos="flip-up" class="mt-5 text-center text-lg text-gray-600 md:w-[30%]">
                         Nous sommes promoteurs des plusieurs valeurs qui renforcent les liens entre les membres de la communauté
                     </p>
                 </div>
 
                 <div class="md:flex md:justify-around md:items-center">
                     <div class="mt-10 md:w-[45%]">
-                        <div class="flex items-center justify-around">
+                        <div data-aos="flip-left" class="flex items-center justify-around">
                             <div class="flex justify-center shadow-md bg-gray-900 text-white items-center h-24 w-24 border rounded-full"><i class='bx bxs-graduation text-4xl text-white'></i></div>
-                            <div class="w-[60%]">
+                            <div  class="w-[60%]">
                                 <h1 class="font-bold text-2xl text-blue-950">Excelence</h1>
                                 <p class="mt-2 text-lg text-gray-600">Promouvoir l'excellence c'est promouvoir un travail de qualité </p>
                             </div>
                         </div>
     
-                        <div class="flex items-center justify-around mt-7">
+                        <div data-aos="flip-left" class="flex items-center justify-around mt-7">
                             <div class="flex justify-center shadow-md bg-gray-900 text-white items-center h-24 w-24 border rounded-full"><i class='bx bxs-briefcase text-4xl text-white'></i></div>
                             <div class="w-[60%]">
                                 <h1 class="font-bold text-2xl text-blue-950">Travail</h1>
@@ -112,7 +114,7 @@
                             </div>
                         </div>
     
-                        <div class="flex items-center justify-around mt-7">
+                        <div data-aos="flip-left" class="flex items-center justify-around mt-7">
                             <div class="flex justify-center shadow-md bg-gray-900 text-white items-center h-24 w-24 border rounded-full"><i class='bx bxs-donate-heart text-4xl text-white'></i></div>
                             <div class="w-[60%]">
                                 <h1 class="font-bold text-2xl text-blue-950">Partage</h1>
@@ -121,11 +123,11 @@
                         </div>
                     </div>
                     <div class="mt-12 md:w-[55%]">
-                        <div class="relative flex flex-col items-center">
-                            <div class="h-60 w-full bg-[url('./img/fin.JPG')] bg-cover rounded-xl md:h-[45vh]">
+                        <div  class="relative flex flex-col items-center">
+                            <div data-aos="flip-right" class="h-60 w-full bg-[url('./img/fin.jpg')] bg-cover rounded-xl md:h-[45vh]">
                                 
                             </div>
-                            <div class="absolute -bottom-14 h-32 w-72 p-3 text-white flex justify-between items-center rounded-xl bg-gradient-to-t from-blue-500/90 to-blue-600/90">
+                            <div data-aos="flip-right" class="absolute -bottom-14 h-32 w-72 p-3 text-white flex justify-between items-center rounded-xl bg-gradient-to-t from-blue-500/90 to-blue-600/90">
                                 <div class="flex flex-col items-center">
                                     <h1 class="text-3xl">200+</h1>
                                     <p class="font-semibold text-xl">Membres</p>
@@ -142,7 +144,7 @@
         </section>
 
         <section class="bg-gray-100">
-            <div class=" bg-blue-700">
+            <div data-aos="zoom-in" class=" bg-blue-700">
                 <div class="p-4 mt-5">
                     <h1 class="text-white mt-5 font-semibold text-center text-4xl">
                         Rejoignez la communauté <br>
@@ -163,11 +165,11 @@
 
         <footer class="bg-gray-200 p-4">
             <div class="p-4">
-                <div class="flex justify-center">
+                <div data-aos="zoom-in" class="flex justify-center">
                     <a href="" class="text-3xl font-bold text-cyan-500 md:text-4xl md:font-bold">Dev<span class="text-cyan-600">Com</span></a>
                 </div>
-                <div class="flex justify-around mt-4">
-                    <div>
+                <div  class="flex justify-around mt-4">
+                    <div data-aos="zoom-in">
                         <h1 class="text-lg font-semibold">Projet OpenSource</h1>
                         <ul class="mt-3">
                             <li><a href="" class="block text-gray-500">projet 1</a></li>
@@ -175,7 +177,7 @@
                             <li><a href="" class="block text-gray-500 mt-3">projet 3</a></li>
                         </ul>
                     </div>
-                    <div>
+                    <div data-aos="zoom-in">
                         <h1 class="text-lg font-semibold">Entreprise</h1>
                         <ul class="mt-3">
                             <li><a href="" class="block text-gray-500">Nos Services</a></li>
@@ -186,7 +188,7 @@
                 </div>
 
                 <div class="flex justify-around items-center mt-7 border-b border-blue-600/40 pb-3">
-                    <div>
+                    <div data-aos="zoom-in">
                         <h1 class="text-lg font-semibold">Ressources</h1>
                         <ul class="mt-3">
                             <li><a href="" class="block text-gray-500">Condition d'utilisation</a></li>
@@ -195,7 +197,7 @@
                             
                         </ul>
                     </div>
-                    <div>
+                    <div data-aos="zoom-in">
                         <h1 class="text-lg font-semibold"></h1>
                         <ul class="mt-3">
                             <li><a href="" class="block text-gray-500">Flux RSS Blog</a></li>
@@ -205,7 +207,7 @@
                     </div>
                 </div>
 
-                <div class="flex justify-around w-full mt-7">
+                <div data-aos="zoom-in" class="flex justify-around w-full mt-7">
                     <a href="#" class="flex justify-center items-center h-14 w-14 border rounded-full hover:bg-gray-300 hover:duration-300"><i class='bx bxl-facebook-circle text-4xl text-blue-600'></i></a>
                     <a href="#" class="flex justify-center items-center h-14 w-14 border rounded-full hover:bg-gray-300 hover:duration-300"><i class='bx bxl-instagram-alt text-4xl text-blue-600'></i></a>
                     <a href="https://www.linkedin.com/company/devcom-upl/" class="flex justify-center items-center h-14 w-14 border rounded-full hover:bg-gray-300 hover:duration-300"><i class='bx bxl-linkedin-square text-4xl text-blue-600'></i></a>
@@ -223,5 +225,8 @@
 
 
     <script src="index.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

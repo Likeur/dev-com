@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,14 +24,15 @@
                         </button>
                     </div> 
                 </div>
-                <div class="absolute w-full h-0 overflow-hidden duration-700 md:h-16 md:relative" id="navbar">
-                    <div class="h-[100vh] bg-black/50 p-7 duration-300 md:bg-transparent md:h-16 md:flex md:justify-end md:items-center md:p-0" >
-                        <nav class="bg-white p-7 rounded-xl shadow-white shadow-2xl md:p-0 md:bg-transparent md:shadow-none">
+                <div class="absolute z-50 w-full h-0 overflow-hidden duration-300 md:h-16 md:relative" id="navbar">
+                    <div class="h-[100vh] z-50 bg-white/80 p-7 duration-300 md:bg-transparent md:h-16 md:flex md:justify-end md:items-center md:p-0" >
+                        <nav class="bg-white z-50 p-7 rounded-xl shadow-blue-500 shadow-2xl md:p-0 md:bg-transparent md:shadow-none">
                             <ul class="text-xl font-semibold text-cyan-800 md:flex md:items-center">
                                 <li><a href="../index.html" class="block   md:p-0 md:w-16">Acceuil</a></li>
                                 <li><a href="about.html" class="block mt-3 md:ml-4 md:mt-0">A propos</a></li>
-                                <li><a href="projet.html" class="block mt-3 border-b-4 border-blue-600 w-16 md:ml-4 md:mt-0">Projet</a></li>
+                                <li><a href="projet.html" class="block mt-3 text-blue-500 w-16 md:ml-4 md:mt-0">Projet</a></li>
                                 <li><a href="blog.html" class="block mt-3 md:ml-4 md:mt-0">Blog</a></li>
+                                <li><a href="album.html" class="block mt-3 md:ml-4 md:mt-0">Album</a></li>
                                 <div class="flex justify-center border-t mt-7 md:mt-0 md:border-none">
                                     <a href="" class="block border mt-3 bg-white/50  p-2 px-20 rounded-full shadow-md hover:bg-blue-500 hover:duration-300 hover:text-white md:px-7 md:ml-4 md:text-white md:mt-0 md:bg-blue-600">Join Us</a>
                                 </div>
@@ -41,11 +42,36 @@
                 </div>
             </div>
             
-            
-            <section>
+            <section class="bg-gray-50">
                 <div class="p-4">
-                    <h1 class="text-center bg-red-600/70 rounded-lg text-white text-xl font-bold p-4">Bientôt disponible</h1>
+                    <div class="p-3">
+                        <a href="#" class="block bg-blue-500 text-white text-xl uppercase shadow-lg p-2 w-32 text-center">Project</a>
+                        <h1 class="mt-5 text-4xl font-semibold">
+                           Decouvrez Les projets sur lesquels nos membres ont travaillé
+                        </h1>
+                        
+                    </div>
                 </div>
+                <div class="mt-4 p-4">
+                    <h1 class="text-center bg-blue-500/80 rounded-lg text-white text-xl font-bold p-4 lg:w-[40%]">Nos Projets</h1>
+
+                    <div class=" bg-white items-center h-[55vh] overflow-y-scroll mt-5 p-2 rounded-lg lg:flex lg:overflow-x-scroll lg:overflow-y-hidden">
+                        <div class="bg-gradient-to-b from-blue-700 to-blue-950 flex justify-center items-center mt-2 h-[40vh] w-full rounded-lg lg:ml-2">
+                            <h1 class="text-white text-2xl">Projet 1</h1>
+                        </div>
+
+                        <div class="bg-gradient-to-b from-blue-700 to-blue-950 mt-2 h-[40vh] flex justify-center items-center w-full rounded-lg lg:ml-2">
+                            <h1 class="text-white text-2xl">Projet 2</h1>
+                        </div>
+
+                        <div class="bg-gradient-to-b from-blue-700 to-blue-950 mt-2 h-[40vh] flex justify-center items-center w-full rounded-lg lg:ml-2">
+                            <h1 class="text-white text-2xl">Projet 3</h1>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                
             </section>
             
         </header>

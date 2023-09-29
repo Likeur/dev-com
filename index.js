@@ -20,15 +20,11 @@ btnMenu.addEventListener('click', ()=>{
 btnEtudiant.addEventListener('click', ()=>{
     divEtudiant.classList.add('opacity-100');
     divAlumnis.classList.add('opacity-0');
-    btnAlumnis.classList.remove('bg-blue-500');
-    btnEtudiant.classList.add('bg-blue-500');
-    btnEtudiant.classList.add('text-white');
-    btnEtudiant.classList.add('p-1');
-    btnEtudiant.classList.add('rounded-full');
-    btnAlumnis.classList.remove('text-white');
-    btnEtudiant.classList.add('px-4');
-    btnEtudiant.classList.add('shadow-xl');
-    btnEtudiant.classList.add('font-semibold');
+    btnAlumnis.classList.remove('bg-blue-500','text-white');
+
+    btnEtudiant.classList.add('bg-blue-500','text-white','p-1','rounded-full','px-4','shadow-xl','font-semibold');
+
+   
 })
 btnAlumnis.addEventListener('click', ()=>{
     divEtudiant.classList.remove('opacity-100');

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +7,8 @@
 
     <link rel="stylesheet" href="../output.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
     <main>
@@ -24,12 +26,12 @@
                         </button>
                     </div> 
                 </div>
-                <div class="absolute w-full h-0 overflow-hidden duration-700 md:h-16 md:relative" id="navbar">
-                    <div class="h-[100vh] bg-black/50 p-7 duration-300 md:bg-transparent md:h-16 md:flex md:justify-end md:items-center md:p-0" >
-                        <nav class="bg-white p-7 rounded-xl shadow-white shadow-2xl md:p-0 md:bg-transparent md:shadow-none">
+                <div class="absolute z-50 w-full h-0 overflow-hidden duration-300 md:h-16 md:relative" id="navbar">
+                    <div class="h-[100vh] z-50 bg-white/80 p-7 duration-300 md:bg-transparent md:h-16 md:flex md:justify-end md:items-center md:p-0" >
+                        <nav class="bg-white z-50 p-7 rounded-xl shadow-blue-500 shadow-2xl md:p-0 md:bg-transparent md:shadow-none">
                             <ul class="text-xl font-semibold text-cyan-800 md:flex md:items-center">
                                 <li><a href="../index.html" class="block md:p-0 md:w-16">Acceuil</a></li>
-                                <li><a href="about.html" class="block mt-3 border-b-4 border-blue-600 w-24 md:ml-4 md:mt-0">A propos</a></li>
+                                <li><a href="about.html" class="block mt-3 text-blue-500 md:ml-4 md:mt-0">A propos</a></li>
                                 <li><a href="projet.html" class="block mt-3 md:ml-4 md:mt-0">Projet</a></li>
                                 <li><a href="blog.html" class="block mt-3 md:ml-4 md:mt-0">Blog</a></li>
                                 <li><a href="album.html" class="block mt-3 md:ml-4 md:mt-0">Album</a></li>
@@ -46,10 +48,10 @@
                 <div class="p-4">
                     <div class="lg:flex lg:justify-around">
                         
-                        <div class="mt-5 h-60 bg-[url('./img/alumnis.jpg')] rounded-lg bg-cover md:h-[70vh] lg:w-[45%] lg:mt-0 lg:h-[60vh]">
+                        <div data-aos="zoom-in" class="mt-5 h-60 bg-[url('./img/alumnis.jpg')] rounded-lg bg-cover md:h-[70vh] lg:w-[45%] lg:mt-0 lg:h-[60vh]">
 
                         </div>
-                        <div class="mt-5 lg:w-[50%] lg:mt-0">
+                        <div data-aos="zoom-in" class="mt-5 lg:w-[50%] lg:mt-0">
                             <h1 class="bg-gradient-to-r from-blue-800 rounded-lg p-3 text-white font-bold text-xl">A propos de nous</h1>
                             <p class="mt-5 text-lg text-justify">
                                 <strong>Devcom</strong> est une communauté des passionnées de la téchnologie en général et du developpement informatique en particulier, ces derniers se reunissent pour exposer, partager et innover sur base de leurs connaissances.
@@ -71,7 +73,7 @@
 
             <section>
                 <div class="p-4 lg:flex lg:justify-around">
-                    <div class="mt-5 lg:w-[45%] lg:mt-0">
+                    <div data-aos="zoom-in" class="mt-5 lg:w-[45%] lg:mt-0">
                         <h1 class="bg-gradient-to-r from-blue-800 rounded-lg p-3 text-white font-bold text-xl">Nos Objectis</h1>
                         <p class="mt-5 text-lg  p-3">
                             <span class="font-bold mr-2">1.</span> <span>Partager les Connaissances et les compétences</span> <br>
@@ -87,7 +89,7 @@
                         </p>
                     </div>
 
-                    <div class="mt-5 h-60 bg-[url('./img/fin.JPG')] rounded-lg bg-cover md:h-[70vh] lg:w-[45%] lg:mt-0 lg:h-[60vh]">
+                    <div data-aos="zoom-in" class="mt-5 h-60 bg-[url('./img/fin.JPG')] rounded-lg bg-cover md:h-[70vh] lg:w-[45%] lg:mt-0 lg:h-[60vh]">
 
                     </div>
                 </div>
@@ -97,9 +99,9 @@
             <section class="bg-blue-50/50 shadow-md border-t p-4">
                 <div class="mt-5">
                     <div class="flex flex-col items-center">
-                        <div class="flex justify-center bg-blue-300/50 items-center h-14 w-14 border rounded-full"><i class='bx bx-pin text-4xl text-blue-800'></i></div>
-                        <h1 class="bg-gradient-to-r from-blue-800 to-blue-300 bg-clip-text text-transparent font-bold text-4xl mt-3">Notre équipe</h1>
-                        <p class="mt-5 text-center text-lg text-gray-600">
+                        <div data-aos="zoom-in" class="flex justify-center bg-blue-300/50 items-center h-14 w-14 border rounded-full"><i class='bx bx-pin text-4xl text-blue-800'></i></div>
+                        <h1 data-aos="zoom-in" class="bg-gradient-to-r from-blue-800 to-blue-300 bg-clip-text text-transparent font-bold text-4xl mt-3">Notre équipe</h1>
+                        <p data-aos="zoom-in" class="mt-5 text-center text-lg text-gray-600">
                             Nous sommes une communauté des passionnées, composé des membres actifs  et devoués
                         </p>
 
@@ -108,7 +110,7 @@
                             <button id="btn-etudiant" class="ml-5 duration-700">Etudiants</button>
                         </div>
                     </div>
-                    <div id="equipe" class="mt-5 relative md:overflow-x-scroll">
+                    <div data-aos="zoom-in" id="equipe" class="mt-5 relative md:overflow-x-scroll">
                         <div id="alumnis" class="mt-5 duration-300 md:flex">
                             <div class="p-4">
                                 <div class="md:w-60">
@@ -310,5 +312,8 @@
 
 
     <script src="../index.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
