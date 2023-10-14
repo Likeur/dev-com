@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devcom</title>
+
+    <link rel="stylesheet" href="../../../output.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body class="bg-contain bg-gray-50">
+    <main class="">
+       <nav class="sticky top-0 p-4 bg-white border-b flex justify-between items-center  lg:p-2">
+            <div class="lg:ml-10 flex items-center">
+                <a href="../../../index.html" class="text-xl font-bold text-blue-500 md:text-2xl md:font-bold">Dev<span class="text-blue-700">Com</span></a>
+                <div class="hidden md:block ml-2 border rounded-l-full">
+                    <form action="">
+                        <input type="search" name="search" id="" class="rounded-l-full outline-none ml-2 p-2" placeholder="Rechercher">
+                        <button type="submit" class="bg-blue-600 text-white p-2">Rech</button>
+                    </form>
+                </div>
+            </div>
+            <div class="">
+                <div class="flex items-center">
+                    <div>
+                        <a href="" class="p-2 bg-gray-500/20 border text-2xl mr-2 h-10 w-10 flex justify-center items-center rounded-full text-blue-900 font-semibold ">+</a>
+                    </div>
+                    <button class="lg:mr-10 flex border items-center rounded-full p-1" id="profile-btn">
+                        <div class="text-white flex h-8 w-8 lg:h-10 lg:w-10 rounded-full bg-blue-600 items-center justify-center"><i class='bx bxs-user'></i></div>
+                        <span><i class='bx bx-chevron-down text-2xl'></i></span>
+                    </button>
+                </div>
+                <ul id="sidebar" class="p-4 w-60 absolute right-0 scale-0 shadow-md bg-white border mt-2 duration-200">
+                    <li class="p-2 flex items-center text-xl text-gray-500"><i class='bx bxs-user'></i><p class="ml-2">Likeur off</p></li>
+                    <div class="border-t">
+                        <a href="" class="mt-4 p-2 bg-blue-600 text-white hover:bg-blue-600 hover:text-white cursor-pointer hover:shadow-sm hover:duration-100 flex items-center text-xl"><i class='bx bxl-blogger'></i><li  class="ml-2">Blog</li></a>
+                        <a href="" class="mt-4 p-2 hover:bg-blue-600 hover:text-white cursor-pointer hover:shadow-sm hover:duration-100 flex items-center text-xl"><i class='bx bxs-news'></i><li  class="ml-2">News</li></a>
+                        <a href="" class="mt-4 p-2 hover:bg-blue-600 hover:text-white cursor-pointer hover:shadow-sm hover:duration-100 flex items-center text-xl"><i class='bx bxs-pyramid'></i><li class="ml-2">Projets</li></a>
+
+                    </div>
+                    <div>
+                        <button class="mt-10 p-2 w-full text-blue-900 bg-blue-600/20 hover:bg-blue-600 hover:text-white">Se Deconnecter</button>
+                    </div>
+                </ul>
+            </div>
+       </nav>
+
+       <section class="">
+            <div class="bg-white flex ">
+                <section class="w-full border-b lg:border-r p-4">
+                    <div class="lg:fixed">
+                        <p class="uppercase inline-block bg-blue-600 text-white p-2 border shadow-md px-5">Blog</p>
+                    </div>
+
+                  <section class="flex justify-center">
+                    <div class="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+                        <a href="./blogdetail.html" class="p-2 bg-white border shadow-sm mt-5 flex flex-col rounded-md justify-between items-center lg:w-80">
+                            <div>
+                                <div class="lg:mr-10 flex items-center rounded-full p-1">
+                                    <div class="text-white flex h-8 w-8 lg:h-10 lg:w-10 rounded-full bg-gray-600 items-center justify-center"><i class='bx bxs-user'></i></div>
+                                    <span class="ml-2 font-semibold">Likeur off</span>
+                                    <span class="ml-2 text-sm text-gray-500">10 nov 2023</span>
+                                </div>
+                                <div class="p-4">
+                                    <h1 class="text-xl font-semibold">Getting started With Tailwind CSS and the Best Practice</h1>
+                                </div>
+                                <div>
+                                    <span class="bg-blue-600/20 p-2 rounded-full">Frontend</span>
+                                </div>
+                            </div>
+                            <div class="w-full h-40 mt-5 rounded-md overflow-hidden ">
+                                <img src="./image/blog.jpg" class="" alt="image du post">  
+                            </div>
+    
+                        </a>
+                        <a href="./blogdetail.html" class="p-2 bg-white border shadow-sm mt-5 flex flex-col rounded-md justify-between items-center lg:w-80">
+                            <div>
+                                <div class="lg:mr-10 flex items-center rounded-full p-1">
+                                    <div class="text-white flex h-8 w-8 lg:h-10 lg:w-10 rounded-full bg-gray-600 items-center justify-center"><i class='bx bxs-user'></i></div>
+                                    <span class="ml-2 font-semibold">Likeur off</span>
+                                    <span class="ml-2 text-sm text-gray-500">10 nov 2023</span>
+                                </div>
+                                <div class="p-4">
+                                    <h1 class="text-xl font-semibold">Getting started With Tailwind CSS and the Best Practice</h1>
+                                </div>
+                                <div>
+                                    <span class="bg-blue-600/20 p-2 rounded-full">Frontend</span>
+                                </div>
+                            </div>
+                            <div class="w-full h-40 mt-5 rounded-md overflow-hidden ">
+                                <img src="./image/blog.jpg" class="" alt="image du post">  
+                            </div>
+    
+                        </a>
+                        <a href="./blogdetail.html" class="p-2 bg-white border shadow-sm mt-5 flex flex-col rounded-md justify-between items-center lg:w-80">
+                            <div>
+                                <div class="lg:mr-10 flex items-center rounded-full p-1">
+                                    <div class="text-white flex h-8 w-8 lg:h-10 lg:w-10 rounded-full bg-gray-600 items-center justify-center"><i class='bx bxs-user'></i></div>
+                                    <span class="ml-2 font-semibold">Likeur off</span>
+                                    <span class="ml-2 text-sm text-gray-500">10 nov 2023</span>
+                                </div>
+                                <div class="p-4">
+                                    <h1 class="text-xl font-semibold">Getting started With Tailwind CSS and the Best Practice</h1>
+                                </div>
+                                <div>
+                                    <span class="bg-blue-600/20 p-2 rounded-full">Frontend</span>
+                                </div>
+                            </div>
+                            <div class="w-full h-40 mt-5 rounded-md overflow-hidden ">
+                                <img src="./image/blog.jpg" class="" alt="image du post">  
+                            </div>
+    
+                        </a>
+                        <a href="./blogdetail.html" class="p-2 bg-white border shadow-sm mt-5 flex flex-col rounded-md justify-between items-center lg:w-80">
+                            <div>
+                                <div class="lg:mr-10 flex items-center rounded-full p-1">
+                                    <div class="text-white flex h-8 w-8 lg:h-10 lg:w-10 rounded-full bg-gray-600 items-center justify-center"><i class='bx bxs-user'></i></div>
+                                    <span class="ml-2 font-semibold">Likeur off</span>
+                                    <span class="ml-2 text-sm text-gray-500">10 nov 2023</span>
+                                </div>
+                                <div class="p-4">
+                                    <h1 class="text-xl font-semibold">Getting started With Tailwind CSS and the Best Practice</h1>
+                                </div>
+                                <div>
+                                    <span class="bg-blue-600/20 p-2 rounded-full">Frontend</span>
+                                </div>
+                            </div>
+                            <div class="w-full h-40 mt-5 rounded-md overflow-hidden ">
+                                <img src="./image/blog.jpg" class="" alt="image du post">  
+                            </div>
+    
+                        </a>
+                        <a href="./blogdetail.html" class="p-2 bg-white border shadow-sm mt-5 flex flex-col rounded-md justify-between items-center lg:w-80">
+                            <div>
+                                <div class="lg:mr-10 flex items-center rounded-full p-1">
+                                    <div class="text-white flex h-8 w-8 lg:h-10 lg:w-10 rounded-full bg-gray-600 items-center justify-center"><i class='bx bxs-user'></i></div>
+                                    <span class="ml-2 font-semibold">Likeur off</span>
+                                    <span class="ml-2 text-sm text-gray-500">10 nov 2023</span>
+                                </div>
+                                <div class="p-4">
+                                    <h1 class="text-xl font-semibold">Getting started With Tailwind CSS and the Best Practice</h1>
+                                </div>
+                                <div>
+                                    <span class="bg-blue-600/20 p-2 rounded-full">Frontend</span>
+                                </div>
+                            </div>
+                            <div class="w-full h-40 mt-5 rounded-md overflow-hidden ">
+                                <img src="./image/blog.jpg" class="" alt="image du post">  
+                            </div>
+    
+                        </a>
+                        <a href="./blogdetail.html" class="p-2 bg-white border shadow-sm mt-5 flex flex-col rounded-md justify-between items-center lg:w-80">
+                            <div>
+                                <div class="lg:mr-10 flex items-center rounded-full p-1">
+                                    <div class="text-white flex h-8 w-8 lg:h-10 lg:w-10 rounded-full bg-gray-600 items-center justify-center"><i class='bx bxs-user'></i></div>
+                                    <span class="ml-2 font-semibold">Likeur off</span>
+                                    <span class="ml-2 text-sm text-gray-500">10 nov 2023</span>
+                                </div>
+                                <div class="p-4">
+                                    <h1 class="text-xl font-semibold">Getting started With Tailwind CSS and the Best Practice</h1>
+                                </div>
+                                <div>
+                                    <span class="bg-blue-600/20 p-2 rounded-full">Frontend</span>
+                                </div>
+                            </div>
+                            <div class="w-full h-40 mt-5 rounded-md overflow-hidden ">
+                                <img src="./image/blog.jpg" class="" alt="image du post">  
+                            </div>
+    
+                        </a>
+                       
+                    </div>
+                  </section>
+                </section>
+    
+            </div>
+       </section>
+
+    </main>
+
+
+
+    <script>
+        const profileBtn = document.querySelector('#profile-btn')
+        const sideBar = document.querySelector('#sidebar')
+
+        profileBtn.addEventListener('click', ()=>{
+            sideBar.classList.toggle('scale-100')
+            sideBar.classList.toggle('scale-0')
+            
+        })
+    </script>
+
+</body>
+</html>

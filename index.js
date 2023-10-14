@@ -34,3 +34,5 @@ btnAlumnis.addEventListener('click', ()=>{
     btnAlumnis.classList.add('text-white');
     btnEtudiant.classList.remove('bg-blue-500')
 })
+
+
